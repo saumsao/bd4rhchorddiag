@@ -1,0 +1,33 @@
+Package: chorddiag
+Title: Interactive Chord Diagrams
+Version: 0.1.2
+Authors@R: c(
+    person("Matthias", "Flor", email = "matthias.c.flor@gmail.com", role = c("aut", "cre")),
+    person("Elizabeth", "Tang", email = "eliz.thf@gmail.com", role = "ctb"))
+Description: Interactive Chord Diagrams via the D3 JavaScript library
+    Based on http://bl.ocks.org/mbostock/4062006 with some modifications
+    (fading) and additions (tooltips, bipartite diagram type).
+URL: http://github.com/mattflor/chorddiag/
+Depends: R (>= 3.2.0)
+License: GPL (>= 3)
+LazyData: true
+Imports: htmlwidgets (>= 0.4), RColorBrewer (>= 1.1-2),
+Suggests: dplyr, shiny, knitr, pander
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: chorddiag
+RemoteUsername: mattflor
+RemoteRef: master
+RemoteSha: 86b1652e52d7a68d0338941a0d7df149463066c1
+GithubRepo: chorddiag
+GithubUsername: mattflor
+GithubRef: master
+GithubSHA1: 86b1652e52d7a68d0338941a0d7df149463066c1
+NeedsCompilation: no
+Packaged: 2018-11-04 05:38:30 UTC; Saumya Sao
+Author: Matthias Flor [aut, cre],
+  Elizabeth Tang [ctb]
+Maintainer: Matthias Flor <matthias.c.flor@gmail.com>
+Built: R 3.5.1; ; 2018-11-04 05:38:34 UTC; windows
